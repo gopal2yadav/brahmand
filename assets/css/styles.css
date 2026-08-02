@@ -2407,3 +2407,54 @@ body.is-speaking .chat-avatar {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ═══════ Divine Universe Engine (living cosmos + speaking deity) ═══════ */
+.universe-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+.cosmic-stage .universe-deep { z-index: -1; opacity: 0.6; mix-blend-mode: screen; }
+.live-preview .universe-canvas { z-index: 1; opacity: 1; }
+.live-preview::before, .live-preview::after { z-index: 2; }
+.cosmic-map .universe-canvas { opacity: 1; }
+.chat-side-visual .universe-canvas { opacity: 0.85; mix-blend-mode: screen; }
+
+/* speaking divine face */
+.chat-side-visual.has-face {
+  min-height: 430px;
+  background: linear-gradient(180deg, #0a1030 0%, #070a1f 55%, #04060f 100%);
+}
+.divine-face {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  z-index: 1;
+  width: min(230px, 82%);
+  transform: translateX(-50%);
+  pointer-events: none;
+  filter: drop-shadow(0 0 22px rgba(140, 110, 255, 0.35));
+  animation: faceFloat 7s ease-in-out infinite;
+}
+.divine-face svg { width: 100%; height: auto; display: block; }
+@keyframes faceFloat {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-6px); }
+}
+.divine-face .df-halo { transition: opacity 0.5s; opacity: 0.75; }
+.divine-face.speaking .df-halo { opacity: 1; animation: haloPulse 1.1s ease-in-out infinite; }
+@keyframes haloPulse {
+  0%, 100% { transform: scale(1); transform-origin: 100px 98px; }
+  50% { transform: scale(1.06); transform-origin: 100px 98px; }
+}
+.divine-face .df-thirdeye { opacity: 0.55; transition: opacity 0.4s; }
+.divine-face.speaking .df-thirdeye { opacity: 1; filter: drop-shadow(0 0 6px #ffc44d); }
+.divine-face.speaking { filter: drop-shadow(0 0 34px rgba(255, 196, 77, 0.45)); }
+.chat-side-visual.has-face .chat-side-visual-content { z-index: 2; }
+@media (prefers-reduced-motion: reduce) {
+  .divine-face, .divine-face .df-halo { animation: none !important; }
+}
