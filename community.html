@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b16">
+  <meta name="description" content="A local-storage community demo for spiritual reflections and questions.">
+  <meta property="og:title" content="Community">
+  <meta property="og:description" content="A local-storage community demo for spiritual reflections and questions.">
+  <meta property="og:image" content="assets/images/shiva-dashboard.webp">
+  <meta property="og:type" content="website">
+  <title>Community · Brahmand</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script><script src="assets/js/community.js" defer></script>
+</head>
+<body data-page="community">
+
+<a class="skip-link" href="#mainContent">मुख्य सामग्री पर जाएँ</a>
+<canvas id="starfield" aria-hidden="true"></canvas>
+<div class="ambient-orb one" aria-hidden="true"></div><div class="ambient-orb two" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Brahmand home">
+      <span class="brand-om">ॐ</span>
+      <span class="brand-copy"><strong>Brahmand</strong><small>The Eternal Cosmic Intelligence</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation"><a href="index.html" data-nav="home">Home</a><a href="ask-bhagwan.html" data-nav="ask">Ask Bhagwan</a><a href="bhagavad-gita.html" data-nav="gita">Bhagavad Gita</a><a href="vedas.html" data-nav="vedas">Vedas</a><a href="puranas.html" data-nav="puranas">Puranas</a><a href="upanishads.html" data-nav="upanishads">Upanishads</a><a href="scriptures.html" data-nav="scriptures">Scriptures</a><a href="cosmic-dashboard.html" data-nav="cosmic">Cosmic Dashboard</a></nav>
+    <div class="header-actions">
+      <div class="language-control"><label class="sr-only" for="globalLanguage">Language</label><select id="globalLanguage">
+<option value="hi-IN">हिन्दी</option>
+<option value="en-US">English</option>
+<option value="sa-IN">संस्कृतम्</option>
+<option value="ta-IN">தமிழ்</option>
+<option value="te-IN">తెలుగు</option>
+<option value="bn-IN">বাংলা</option>
+<option value="gu-IN">ગુજરાતી</option>
+<option value="mr-IN">मराठी</option>
+<option value="pa-IN">ਪੰਜਾਬੀ</option>
+<option value="ur-PK">اردو</option>
+<option value="es-ES">Español</option>
+<option value="fr-FR">Français</option>
+<option value="de-DE">Deutsch</option>
+<option value="pt-BR">Português</option>
+<option value="ar-SA">العربية</option>
+<option value="zh-CN">中文</option>
+<option value="ja-JP">日本語</option>
+</select></div>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="app-shell">
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-heading">Cosmic Navigation</div>
+  <nav class="side-nav" aria-label="Section navigation"><a class="" href="index.html" data-nav="home"><span class="side-icon">⌂</span><span class="side-copy"><strong>Home</strong><small>ब्रह्माण्ड में लौटें</small></span></a><a class="" href="ask-bhagwan.html" data-nav="ask"><span class="side-icon">✦</span><span class="side-copy"><strong>Ask Bhagwan</strong><small>Voice और text संवाद</small></span></a><a class="" href="bhagavad-gita.html" data-nav="gita"><span class="side-icon">▤</span><span class="side-copy"><strong>Bhagavad Gita</strong><small>18 अध्यायों का ज्ञान</small></span></a><a class="" href="vedas.html" data-nav="vedas"><span class="side-icon">ॐ</span><span class="side-copy"><strong>Vedas</strong><small>वैदिक ज्ञान परम्परा</small></span></a><a class="" href="puranas.html" data-nav="puranas"><span class="side-icon">◈</span><span class="side-copy"><strong>Puranas</strong><small>18 महापुराण</small></span></a><a class="" href="upanishads.html" data-nav="upanishads"><span class="side-icon">◌</span><span class="side-copy"><strong>Upanishads</strong><small>आत्मा और ब्रह्म की खोज</small></span></a><a class="" href="scriptures.html" data-nav="scriptures"><span class="side-icon">⌘</span><span class="side-copy"><strong>Scripture Library</strong><small>शास्त्र खोजें</small></span></a><a class="" href="daily-wisdom.html" data-nav="wisdom"><span class="side-icon">✧</span><span class="side-copy"><strong>Daily Wisdom</strong><small>आज का चिंतन</small></span></a><a class="" href="meditation.html" data-nav="meditation"><span class="side-icon">◉</span><span class="side-copy"><strong>Meditation</strong><small>श्वास और जागरूकता</small></span></a><a class="" href="cosmic-dashboard.html" data-nav="cosmic"><span class="side-icon">✺</span><span class="side-copy"><strong>Cosmic Dashboard</strong><small>जीवंत visual simulation</small></span></a><a class="active" href="community.html" data-nav="community"><span class="side-icon">♧</span><span class="side-copy"><strong>Community</strong><small>साधकों का संग</small></span></a><a class="" href="about.html" data-nav="about"><span class="side-icon">◇</span><span class="side-copy"><strong>About</strong><small>उद्देश्य और सिद्धांत</small></span></a></nav>
+  <div class="sidebar-status"><small>Now in Brahmand</small><strong data-seekers>12,847</strong><span class="online">Seekers online</span></div>
+</aside>
+<main class="page-main" id="mainContent"><section class="page-hero reveal"><div class="page-hero-content"><span class="eyebrow">Satsang · Reflection · Support</span><h1>Brahmand Community</h1><p>अपने अभ्यास, प्रश्न और जीवन में लागू ज्ञान साझा करें। इस front-end demo की पोस्ट केवल आपके browser के local storage में रहती हैं; कोई real public backend अभी जुड़ा नहीं है।</p></div></section>
+<div class="page-container"><section class="community-layout"><aside class="card community-compose" style="position:sticky;top:92px;align-self:start"><span class="badge violet-badge">Create a reflection</span><h2 style="font-family:Georgia,serif;margin:13px 0 7px">अपनी बात लिखें</h2><form id="communityForm"><label for="communityName">नाम</label><input class="input" id="communityName" maxlength="40" placeholder="आपका नाम" style="margin:6px 0 12px"><label for="communityTopic">विषय</label><select class="select-control" id="communityTopic" style="width:100%;margin:6px 0 12px"><option>Daily Wisdom</option><option>Meditation</option><option>Question</option><option>Bhagavad Gita</option><option>Shiva & Shaiva thought</option><option>Life Experience</option></select><label for="communityMessage">संदेश</label><textarea class="textarea" id="communityMessage" maxlength="900" placeholder="सम्मानपूर्ण विचार या प्रश्न…" style="margin-top:6px"></textarea><button class="btn btn-gold" type="submit" style="width:100%;margin-top:10px">Post reflection</button></form><div class="notice" style="margin-top:14px">Demo mode: आपकी पोस्ट इसी device/browser में localStorage में सुरक्षित होगी।</div></aside><div><div class="section-header"><div><h2 class="section-title">साधकों की बातें</h2><p class="section-subtitle">सम्मान, करुणा और विभिन्न परम्पराओं के प्रति विनम्रता रखें।</p></div><span class="badge cyan-badge">Community demo</span></div><div class="post-list" id="communityPosts"></div></div></section>
+<section class="section"><h2 class="section-title">Community Dharma</h2><div class="grid-3"><article class="card"><h3>सम्मान</h3><p class="muted">किसी देवता, सम्प्रदाय, जाति, लिंग, भाषा या समुदाय का अपमान न करें।</p></article><article class="card"><h3>सत्यता</h3><p class="muted">व्यक्तिगत अनुभव को अनुभव की तरह साझा करें; उसे सार्वभौमिक तथ्य न घोषित करें।</p></article><article class="card"><h3>सुरक्षा</h3><p class="muted">चिकित्सा, कानूनी या संकट की स्थिति में qualified professional support को प्राथमिकता दें।</p></article></div></section></div></main>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>ॐ तत् सत् · © <span data-current-year></span> Brahmand · AI-assisted spiritual study experience</div>
+    <nav class="footer-links" aria-label="Footer"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="api/health" target="_blank" rel="noopener">System Health</a></nav>
+  </div>
+</footer>
+</body>
+</html>

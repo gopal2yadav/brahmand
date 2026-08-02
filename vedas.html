@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b16">
+  <meta name="description" content="ऋग्वेद, सामवेद, यजुर्वेद और अथर्ववेद का परिचय तथा चुने हुए मंत्र।">
+  <meta property="og:title" content="Vedas">
+  <meta property="og:description" content="ऋग्वेद, सामवेद, यजुर्वेद और अथर्ववेद का परिचय तथा चुने हुए मंत्र।">
+  <meta property="og:image" content="assets/images/shiva-dashboard.webp">
+  <meta property="og:type" content="website">
+  <title>Vedas · Brahmand</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="vedas">
+
+<a class="skip-link" href="#mainContent">मुख्य सामग्री पर जाएँ</a>
+<canvas id="starfield" aria-hidden="true"></canvas>
+<div class="ambient-orb one" aria-hidden="true"></div><div class="ambient-orb two" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Brahmand home">
+      <span class="brand-om">ॐ</span>
+      <span class="brand-copy"><strong>Brahmand</strong><small>The Eternal Cosmic Intelligence</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation"><a href="index.html" data-nav="home">Home</a><a href="ask-bhagwan.html" data-nav="ask">Ask Bhagwan</a><a href="bhagavad-gita.html" data-nav="gita">Bhagavad Gita</a><a href="vedas.html" data-nav="vedas">Vedas</a><a href="puranas.html" data-nav="puranas">Puranas</a><a href="upanishads.html" data-nav="upanishads">Upanishads</a><a href="scriptures.html" data-nav="scriptures">Scriptures</a><a href="cosmic-dashboard.html" data-nav="cosmic">Cosmic Dashboard</a></nav>
+    <div class="header-actions">
+      <div class="language-control"><label class="sr-only" for="globalLanguage">Language</label><select id="globalLanguage">
+<option value="hi-IN">हिन्दी</option>
+<option value="en-US">English</option>
+<option value="sa-IN">संस्कृतम्</option>
+<option value="ta-IN">தமிழ்</option>
+<option value="te-IN">తెలుగు</option>
+<option value="bn-IN">বাংলা</option>
+<option value="gu-IN">ગુજરાતી</option>
+<option value="mr-IN">मराठी</option>
+<option value="pa-IN">ਪੰਜਾਬੀ</option>
+<option value="ur-PK">اردو</option>
+<option value="es-ES">Español</option>
+<option value="fr-FR">Français</option>
+<option value="de-DE">Deutsch</option>
+<option value="pt-BR">Português</option>
+<option value="ar-SA">العربية</option>
+<option value="zh-CN">中文</option>
+<option value="ja-JP">日本語</option>
+</select></div>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="app-shell">
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-heading">Cosmic Navigation</div>
+  <nav class="side-nav" aria-label="Section navigation"><a class="" href="index.html" data-nav="home"><span class="side-icon">⌂</span><span class="side-copy"><strong>Home</strong><small>ब्रह्माण्ड में लौटें</small></span></a><a class="" href="ask-bhagwan.html" data-nav="ask"><span class="side-icon">✦</span><span class="side-copy"><strong>Ask Bhagwan</strong><small>Voice और text संवाद</small></span></a><a class="" href="bhagavad-gita.html" data-nav="gita"><span class="side-icon">▤</span><span class="side-copy"><strong>Bhagavad Gita</strong><small>18 अध्यायों का ज्ञान</small></span></a><a class="active" href="vedas.html" data-nav="vedas"><span class="side-icon">ॐ</span><span class="side-copy"><strong>Vedas</strong><small>वैदिक ज्ञान परम्परा</small></span></a><a class="" href="puranas.html" data-nav="puranas"><span class="side-icon">◈</span><span class="side-copy"><strong>Puranas</strong><small>18 महापुराण</small></span></a><a class="" href="upanishads.html" data-nav="upanishads"><span class="side-icon">◌</span><span class="side-copy"><strong>Upanishads</strong><small>आत्मा और ब्रह्म की खोज</small></span></a><a class="" href="scriptures.html" data-nav="scriptures"><span class="side-icon">⌘</span><span class="side-copy"><strong>Scripture Library</strong><small>शास्त्र खोजें</small></span></a><a class="" href="daily-wisdom.html" data-nav="wisdom"><span class="side-icon">✧</span><span class="side-copy"><strong>Daily Wisdom</strong><small>आज का चिंतन</small></span></a><a class="" href="meditation.html" data-nav="meditation"><span class="side-icon">◉</span><span class="side-copy"><strong>Meditation</strong><small>श्वास और जागरूकता</small></span></a><a class="" href="cosmic-dashboard.html" data-nav="cosmic"><span class="side-icon">✺</span><span class="side-copy"><strong>Cosmic Dashboard</strong><small>जीवंत visual simulation</small></span></a><a class="" href="community.html" data-nav="community"><span class="side-icon">♧</span><span class="side-copy"><strong>Community</strong><small>साधकों का संग</small></span></a><a class="" href="about.html" data-nav="about"><span class="side-icon">◇</span><span class="side-copy"><strong>About</strong><small>उद्देश्य और सिद्धांत</small></span></a></nav>
+  <div class="sidebar-status"><small>Now in Brahmand</small><strong data-seekers>12,847</strong><span class="online">Seekers online</span></div>
+</aside>
+<main class="page-main" id="mainContent"><section class="page-hero reveal"><div class="page-hero-content"><span class="eyebrow">श्रुति परम्परा</span><h1>चार वेद</h1><p>वेद एक पुस्तक नहीं, बल्कि अनेक शाखाओं, पाठों और व्याख्या-परम्पराओं का विशाल वैदिक साहित्य है। यह पृष्ठ परिचय देता है—पूर्ण पाठ या एकमात्र अंतिम व्याख्या नहीं।</p></div></section>
+<div class="page-container">
+<section class="grid-4 reveal"><article class="card card-hover"><div class="card-number">ॐ</div><span class="badge cyan-badge">ऋचा और स्तुति</span><h3 style="margin-top:13px">ऋग्वेद</h3><p class="muted">देवताओं, प्रकृति, ब्रह्माण्ड, प्रार्थना और दार्शनिक प्रश्नों की प्राचीन ऋचाएँ।</p><div class="card-meta"><span class="pill">ज्ञान</span><span class="pill">कविता</span><span class="pill">ब्रह्माण्ड</span></div></article><article class="card card-hover"><div class="card-number">ॐ</div><span class="badge cyan-badge">संगीत और सामगान</span><h3 style="margin-top:13px">सामवेद</h3><p class="muted">मुख्यतः ऋग्वैदिक मंत्रों का संगीतात्मक विन्यास; भारतीय संगीत-परम्परा से गहरा संबंध।</p><div class="card-meta"><span class="pill">स्वर</span><span class="pill">उपासना</span><span class="pill">साम</span></div></article><article class="card card-hover"><div class="card-number">ॐ</div><span class="badge cyan-badge">यज्ञ और कर्म-विधान</span><h3 style="margin-top:13px">यजुर्वेद</h3><p class="muted">अनुष्ठानिक सूत्र, मंत्र और कर्म की संरचना; शुक्ल और कृष्ण परम्पराएँ।</p><div class="card-meta"><span class="pill">कर्म</span><span class="pill">यज्ञ</span><span class="pill">व्यवस्था</span></div></article><article class="card card-hover"><div class="card-number">ॐ</div><span class="badge cyan-badge">जीवन और लोक-परम्परा</span><h3 style="margin-top:13px">अथर्ववेद</h3><p class="muted">आरोग्य, गृह, समाज, शांति, राजधर्म और दार्शनिक सूक्तों का व्यापक संसार।</p><div class="card-meta"><span class="pill">जीवन</span><span class="pill">स्वास्थ्य</span><span class="pill">शांति</span></div></article></section>
+<section class="section"><div class="section-header"><div><h2 class="section-title">वैदिक साहित्य की परतें</h2><p class="section-subtitle">हर वेद से सम्बद्ध सामग्री एक ही रूप में नहीं बची; शाखा और परम्परा के अनुसार अंतर मिलता है।</p></div></div><div class="grid-4"><article class="card"><span class="badge gold-badge">1</span><h3 style="margin-top:12px">संहिता</h3><p class="muted">मंत्र, ऋचा और स्तोत्रों का मूल संग्रह।</p></article><article class="card"><span class="badge gold-badge">2</span><h3 style="margin-top:12px">ब्राह्मण</h3><p class="muted">यज्ञ, अनुष्ठान और उनके अर्थ की गद्यात्मक व्याख्या।</p></article><article class="card"><span class="badge gold-badge">3</span><h3 style="margin-top:12px">आरण्यक</h3><p class="muted">बाहरी अनुष्ठान से ध्यानात्मक और प्रतीकात्मक अर्थ की ओर संक्रमण।</p></article><article class="card"><span class="badge gold-badge">4</span><h3 style="margin-top:12px">उपनिषद्</h3><p class="muted">आत्मा, ब्रह्म, चेतना और मुक्ति पर दार्शनिक खोज।</p></article></div></section>
+<section class="section"><h2 class="section-title">चुने हुए वैदिक मंत्र</h2><div class="grid-2"><article class="card verse-card"><div class="verse-sanskrit">एकं सद् विप्रा बहुधा वदन्ति ।</div><p class="verse-meaning">सत्य एक हो सकता है, ज्ञानी उसे अनेक नाम और दृष्टियों से व्यक्त करते हैं।</p><div class="source-line">— ऋग्वेद 1.164.46</div></article><article class="card verse-card"><div class="verse-sanskrit">आ नो भद्राः क्रतवो यन्तु विश्वतः ।</div><p class="verse-meaning">हर दिशा से कल्याणकारी विचार हमारे पास आएँ।</p><div class="source-line">— ऋग्वेद 1.89.1</div></article><article class="card verse-card"><div class="verse-sanskrit">ॐ द्यौः शान्तिरन्तरिक्षं शान्तिः पृथिवी शान्तिः…</div><p class="verse-meaning">आकाश, पृथ्वी, जल, वनस्पति और समस्त जीवन में शांति व संतुलन की कामना।</p><div class="source-line">— यजुर्वेदीय शान्ति परम्परा</div></article><article class="card verse-card"><div class="verse-sanskrit">ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्…</div><p class="verse-meaning">आरोग्य, निर्भयता और बंधनों से मुक्ति की प्रार्थना।</p><div class="source-line">— ऋग्वेद 7.59.12</div></article></div></section>
+<section class="section"><div class="card notice"><strong>महत्वपूर्ण अध्ययन नोट:</strong> वैदिक संस्कृत अत्यंत प्राचीन है। मंत्र का अर्थ केवल शब्दकोश से नहीं, निरुक्त, व्याकरण, छन्द, अनुष्ठानिक प्रसंग और परम्परागत भाष्य से समझा जाता है। AI उत्तर को प्रारम्भिक मार्गदर्शन मानें, अंतिम प्रामाणिक अनुवाद नहीं।</div></section>
+</div></main>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>ॐ तत् सत् · © <span data-current-year></span> Brahmand · AI-assisted spiritual study experience</div>
+    <nav class="footer-links" aria-label="Footer"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="api/health" target="_blank" rel="noopener">System Health</a></nav>
+  </div>
+</footer>
+</body>
+</html>

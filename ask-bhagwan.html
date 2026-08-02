@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b16">
+  <meta name="description" content="शिव-प्रेरित AI से कई भाषाओं में voice और text संवाद करें।">
+  <meta property="og:title" content="Ask Bhagwan — Voice &amp; Text AI">
+  <meta property="og:description" content="शिव-प्रेरित AI से कई भाषाओं में voice और text संवाद करें।">
+  <meta property="og:image" content="assets/images/shiva-dashboard.webp">
+  <meta property="og:type" content="website">
+  <title>Ask Bhagwan — Voice &amp; Text AI · Brahmand</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script><script src="assets/js/chat.js" defer></script>
+</head>
+<body data-page="ask">
+
+<a class="skip-link" href="#mainContent">मुख्य सामग्री पर जाएँ</a>
+<canvas id="starfield" aria-hidden="true"></canvas>
+<div class="ambient-orb one" aria-hidden="true"></div><div class="ambient-orb two" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Brahmand home">
+      <span class="brand-om">ॐ</span>
+      <span class="brand-copy"><strong>Brahmand</strong><small>The Eternal Cosmic Intelligence</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation"><a href="index.html" data-nav="home">Home</a><a href="ask-bhagwan.html" data-nav="ask">Ask Bhagwan</a><a href="bhagavad-gita.html" data-nav="gita">Bhagavad Gita</a><a href="vedas.html" data-nav="vedas">Vedas</a><a href="puranas.html" data-nav="puranas">Puranas</a><a href="upanishads.html" data-nav="upanishads">Upanishads</a><a href="scriptures.html" data-nav="scriptures">Scriptures</a><a href="cosmic-dashboard.html" data-nav="cosmic">Cosmic Dashboard</a></nav>
+    <div class="header-actions">
+      <div class="language-control"><label class="sr-only" for="globalLanguage">Language</label><select id="globalLanguage">
+<option value="hi-IN">हिन्दी</option>
+<option value="en-US">English</option>
+<option value="sa-IN">संस्कृतम्</option>
+<option value="ta-IN">தமிழ்</option>
+<option value="te-IN">తెలుగు</option>
+<option value="bn-IN">বাংলা</option>
+<option value="gu-IN">ગુજરાતી</option>
+<option value="mr-IN">मराठी</option>
+<option value="pa-IN">ਪੰਜਾਬੀ</option>
+<option value="ur-PK">اردو</option>
+<option value="es-ES">Español</option>
+<option value="fr-FR">Français</option>
+<option value="de-DE">Deutsch</option>
+<option value="pt-BR">Português</option>
+<option value="ar-SA">العربية</option>
+<option value="zh-CN">中文</option>
+<option value="ja-JP">日本語</option>
+</select></div>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="app-shell">
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-heading">Cosmic Navigation</div>
+  <nav class="side-nav" aria-label="Section navigation"><a class="" href="index.html" data-nav="home"><span class="side-icon">⌂</span><span class="side-copy"><strong>Home</strong><small>ब्रह्माण्ड में लौटें</small></span></a><a class="active" href="ask-bhagwan.html" data-nav="ask"><span class="side-icon">✦</span><span class="side-copy"><strong>Ask Bhagwan</strong><small>Voice और text संवाद</small></span></a><a class="" href="bhagavad-gita.html" data-nav="gita"><span class="side-icon">▤</span><span class="side-copy"><strong>Bhagavad Gita</strong><small>18 अध्यायों का ज्ञान</small></span></a><a class="" href="vedas.html" data-nav="vedas"><span class="side-icon">ॐ</span><span class="side-copy"><strong>Vedas</strong><small>वैदिक ज्ञान परम्परा</small></span></a><a class="" href="puranas.html" data-nav="puranas"><span class="side-icon">◈</span><span class="side-copy"><strong>Puranas</strong><small>18 महापुराण</small></span></a><a class="" href="upanishads.html" data-nav="upanishads"><span class="side-icon">◌</span><span class="side-copy"><strong>Upanishads</strong><small>आत्मा और ब्रह्म की खोज</small></span></a><a class="" href="scriptures.html" data-nav="scriptures"><span class="side-icon">⌘</span><span class="side-copy"><strong>Scripture Library</strong><small>शास्त्र खोजें</small></span></a><a class="" href="daily-wisdom.html" data-nav="wisdom"><span class="side-icon">✧</span><span class="side-copy"><strong>Daily Wisdom</strong><small>आज का चिंतन</small></span></a><a class="" href="meditation.html" data-nav="meditation"><span class="side-icon">◉</span><span class="side-copy"><strong>Meditation</strong><small>श्वास और जागरूकता</small></span></a><a class="" href="cosmic-dashboard.html" data-nav="cosmic"><span class="side-icon">✺</span><span class="side-copy"><strong>Cosmic Dashboard</strong><small>जीवंत visual simulation</small></span></a><a class="" href="community.html" data-nav="community"><span class="side-icon">♧</span><span class="side-copy"><strong>Community</strong><small>साधकों का संग</small></span></a><a class="" href="about.html" data-nav="about"><span class="side-icon">◇</span><span class="side-copy"><strong>About</strong><small>उद्देश्य और सिद्धांत</small></span></a></nav>
+  <div class="sidebar-status"><small>Now in Brahmand</small><strong data-seekers>12,847</strong><span class="online">Seekers online</span></div>
+</aside>
+<main class="page-main" id="mainContent">
+<div class="chat-page-grid">
+  <section class="glass-card chat-shell">
+    <header class="chat-header"><div class="chat-avatar">ॐ</div><div class="chat-header-copy"><strong>Brahmand AI Guide</strong><small>शिव-प्रेरित, शास्त्र-संदर्भित और व्यावहारिक संवाद</small></div><div class="chat-tools"><span class="badge gold-badge hidden" id="demoModeBadge">Local demo mode</span><label class="sr-only" for="chatLanguage">उत्तर की भाषा</label><select class="select-control" id="chatLanguage">
+<option value="hi-IN">हिन्दी</option>
+<option value="en-US">English</option>
+<option value="sa-IN">संस्कृतम्</option>
+<option value="ta-IN">தமிழ்</option>
+<option value="te-IN">తెలుగు</option>
+<option value="bn-IN">বাংলা</option>
+<option value="gu-IN">ગુજરાતી</option>
+<option value="mr-IN">मराठी</option>
+<option value="pa-IN">ਪੰਜਾਬੀ</option>
+<option value="ur-PK">اردو</option>
+<option value="es-ES">Español</option>
+<option value="fr-FR">Français</option>
+<option value="de-DE">Deutsch</option>
+<option value="pt-BR">Português</option>
+<option value="ar-SA">العربية</option>
+<option value="zh-CN">中文</option>
+<option value="ja-JP">日本語</option>
+</select><button class="icon-btn" id="clearChat" type="button" title="Clear chat">⌫</button></div></header>
+    <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
+    <div class="chat-composer">
+      <div class="quick-prompts" aria-label="Suggested questions"><button class="quick-prompt" data-prompt="मुझे काम के परिणाम की चिंता बहुत होती है। क्या करूँ?">काम की चिंता</button><button class="quick-prompt" data-prompt="गुस्से को कैसे नियंत्रित करूँ?">क्रोध</button><button class="quick-prompt" data-prompt="आत्मविश्वास कैसे बढ़ाऊँ?">आत्मविश्वास</button><button class="quick-prompt" data-prompt="ध्यान शुरू करने का सरल तरीका बताइए।">ध्यान</button><button class="quick-prompt" data-prompt="मेरे रिश्ते में सम्मान कम हो गया है। धर्म क्या कहता है?">रिश्ते</button></div>
+      <form id="chatForm" style="margin-top:10px"><div class="composer-row"><label class="sr-only" for="chatInput">अपना प्रश्न</label><textarea class="textarea" id="chatInput" rows="1" maxlength="2400" placeholder="अपना प्रश्न लिखें… Enter से भेजें, Shift+Enter से नई line"></textarea><button class="icon-btn voice-button" id="voiceInputButton" type="button" aria-label="Voice input">◉</button><button class="btn btn-gold" id="sendChatButton" type="submit">उत्तर पाएँ ➤</button></div><div class="composer-meta"><label class="toggle"><input id="autoVoice" type="checkbox"><span class="toggle-track"></span><span>उत्तर आवाज़ में सुनाएँ</span></label><span>·</span><span>AI गलत हो सकता है; श्लोक/स्रोत मूल ग्रन्थ से जाँचें।</span></div></form>
+    </div>
+  </section>
+  <aside style="display:grid;gap:16px;align-content:start">
+    <section class="glass-card chat-side-visual"><div class="chat-side-visual-content"><span class="badge violet-badge">Living Cosmic Presence</span><h2 style="margin:10px 0 5px;font-family:Georgia,serif">मुस्कुराता हुआ ज्ञान</h2><p class="muted" style="font-size:11px">उत्तर के दौरान cosmic glow और voice animation सक्रिय होती है।</p></div></section>
+    <section class="card"><h3>उत्तर कैसे बनाया जाता है?</h3><p class="muted">प्रश्न की भाषा और विषय पहचाना जाता है, संबंधित शास्त्रीय संदर्भ चुना जाता है, फिर दैनिक जीवन के लिए सरल कदम दिया जाता है।</p><div class="card-meta"><span class="pill">Gita</span><span class="pill">Vedas</span><span class="pill">Upanishads</span><span class="pill">Yoga</span><span class="pill">Puranic ethics</span></div></section>
+    <div class="notice">यह interface भगवान शिव के प्रति सम्मानपूर्ण devotional art है। चैट करने वाला सिस्टम एक AI है—वास्तविक देवता, सर्वज्ञ सत्ता या योग्य गुरु का विकल्प नहीं।</div>
+  </aside>
+</div></main>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>ॐ तत् सत् · © <span data-current-year></span> Brahmand · AI-assisted spiritual study experience</div>
+    <nav class="footer-links" aria-label="Footer"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="api/health" target="_blank" rel="noopener">System Health</a></nav>
+  </div>
+</footer>
+</body>
+</html>

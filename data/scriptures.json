@@ -1,0 +1,302 @@
+[
+  {
+    "id": "gita-2-47",
+    "title": "कर्मयोग: कर्म पर अधिकार",
+    "category": "Bhagavad Gita",
+    "source": "भगवद्गीता 2.47",
+    "verse": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन । मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+    "summary_hi": "मनुष्य का अधिकार ईमानदार कर्म पर है, परिणाम को नियंत्रित करने पर नहीं।",
+    "summary_en": "Focus on sincere action rather than trying to control every result.",
+    "themes": ["कर्म", "काम", "फल", "कर्तव्य", "career"]
+  },
+  {
+    "id": "gita-2-14",
+    "title": "सुख-दुःख की अनित्यता",
+    "category": "Bhagavad Gita",
+    "source": "भगवद्गीता 2.14",
+    "verse": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः । आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ॥",
+    "summary_hi": "सुख और दुःख बदलते मौसम की तरह आते-जाते हैं; धैर्य के साथ उनका सामना करो।",
+    "summary_en": "Pleasure and pain are temporary; meet them with steadiness.",
+    "themes": ["दुःख", "तनाव", "धैर्य", "change", "stress"]
+  },
+  {
+    "id": "gita-2-20",
+    "title": "आत्मा की नित्यता",
+    "category": "Bhagavad Gita",
+    "source": "भगवद्गीता 2.20",
+    "verse": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः । अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥",
+    "summary_hi": "गीता आत्मा को जन्म-मृत्यु से परे, नित्य और अविनाशी बताती है।",
+    "summary_en": "The Gita describes the self as unborn, enduring and not destroyed with the body.",
+    "themes": ["आत्मा", "मृत्यु", "शोक", "death", "grief"]
+  },
+  {
+    "id": "gita-4-7",
+    "title": "धर्म की पुनर्स्थापना",
+    "category": "Bhagavad Gita",
+    "source": "भगवद्गीता 4.7",
+    "verse": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत । अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥",
+    "summary_hi": "जब धर्म कमजोर और अधर्म प्रबल होता है, दिव्य व्यवस्था संतुलन की ओर बढ़ती है।",
+    "summary_en": "When dharma declines, the divine movement restores balance.",
+    "themes": ["धर्म", "अधर्म", "न्याय", "justice"]
+  },
+  {
+    "id": "gita-6-5",
+    "title": "स्वयं को ऊपर उठाना",
+    "category": "Bhagavad Gita",
+    "source": "भगवद्गीता 6.5",
+    "verse": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् । आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥",
+    "summary_hi": "अपना मन और आचरण मित्र बनाओ; वही शक्ति हमें ऊपर उठाती है।",
+    "summary_en": "Train the mind to become your ally rather than your obstacle.",
+    "themes": ["मन", "आत्मविश्वास", "discipline", "motivation"]
+  },
+  {
+    "id": "gita-18-66",
+    "title": "पूर्ण शरण और निर्भयता",
+    "category": "Bhagavad Gita",
+    "source": "भगवद्गीता 18.66",
+    "verse": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज । अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+    "summary_hi": "अहंकार का बोझ छोड़कर परम सत्य में भरोसा रखो; भय और अपराधबोध से ऊपर उठो।",
+    "summary_en": "Release egoic burden and take refuge in the highest truth without fear.",
+    "themes": ["शरणागति", "भय", "guilt", "faith"]
+  },
+  {
+    "id": "rigveda-1-164-46",
+    "title": "एक सत्य, अनेक नाम",
+    "category": "Vedas",
+    "source": "ऋग्वेद 1.164.46",
+    "verse": "एकं सद् विप्रा बहुधा वदन्ति ।",
+    "summary_hi": "सत्य एक हो सकता है, पर ज्ञानी उसे अनेक नाम और दृष्टियों से व्यक्त करते हैं।",
+    "summary_en": "Truth may be one while wise people express it through many names and perspectives.",
+    "themes": ["एकता", "सत्य", "pluralism", "harmony"]
+  },
+  {
+    "id": "rigveda-1-89-1",
+    "title": "हर दिशा से शुभ विचार",
+    "category": "Vedas",
+    "source": "ऋग्वेद 1.89.1",
+    "verse": "आ नो भद्राः क्रतवो यन्तु विश्वतः ।",
+    "summary_hi": "हर दिशा से कल्याणकारी विचार हमारे पास आएँ—मन को खुला और विवेकपूर्ण रखो।",
+    "summary_en": "Let noble thoughts come to us from every direction.",
+    "themes": ["ज्ञान", "विचार", "learning", "open mind"]
+  },
+  {
+    "id": "yajurveda-shanti",
+    "title": "शांति की व्यापक कामना",
+    "category": "Vedas",
+    "source": "यजुर्वेदीय शान्ति परम्परा",
+    "verse": "ॐ द्यौः शान्तिरन्तरिक्षं शान्तिः पृथिवी शान्तिरापः शान्तिरोषधयः शान्तिः ।",
+    "summary_hi": "आकाश, पृथ्वी, जल, वनस्पति और समस्त जीवन में संतुलन व शांति की कामना।",
+    "summary_en": "A prayer for peace and balance across sky, earth, water, plants and all life.",
+    "themes": ["शांति", "प्रकृति", "environment", "balance"]
+  },
+  {
+    "id": "ishavasya-1",
+    "title": "सर्वत्र ईश्वर-दृष्टि",
+    "category": "Upanishads",
+    "source": "ईशावास्य उपनिषद् 1",
+    "verse": "ईशावास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् ।",
+    "summary_hi": "जगत की हर वस्तु को पवित्रता और उत्तरदायित्व की दृष्टि से देखो।",
+    "summary_en": "See the whole world as pervaded by sacred presence and live responsibly.",
+    "themes": ["ईश्वर", "प्रकृति", "responsibility", "sacred"]
+  },
+  {
+    "id": "chandogya-6-8-7",
+    "title": "तत्त्वमसि",
+    "category": "Upanishads",
+    "source": "छान्दोग्य उपनिषद् 6.8.7",
+    "verse": "तत्त्वमसि ।",
+    "summary_hi": "तुम्हारे भीतर का मूल अस्तित्व उसी परम सत्य से अलग नहीं है।",
+    "summary_en": "Your deepest being is not separate from ultimate reality.",
+    "themes": ["आत्मा", "ब्रह्म", "identity", "self"]
+  },
+  {
+    "id": "brihadaranyaka-1-4-10",
+    "title": "अहं ब्रह्मास्मि",
+    "category": "Upanishads",
+    "source": "बृहदारण्यक उपनिषद् 1.4.10",
+    "verse": "अहं ब्रह्मास्मि ।",
+    "summary_hi": "सीमित अहंकार नहीं, बल्कि चेतना का गहरा आधार ब्रह्म से एक है।",
+    "summary_en": "The deepest ground of consciousness is one with Brahman, beyond the limited ego.",
+    "themes": ["चेतना", "ब्रह्म", "nonduality", "awareness"]
+  },
+  {
+    "id": "mundaka-3-1-6",
+    "title": "सत्यमेव जयते",
+    "category": "Upanishads",
+    "source": "मुण्डक उपनिषद् 3.1.6",
+    "verse": "सत्यमेव जयते नानृतम् ।",
+    "summary_hi": "स्थायी विजय सत्य और ईमानदारी से आती है, छल से नहीं।",
+    "summary_en": "Enduring victory belongs to truth, not falsehood.",
+    "themes": ["सत्य", "ईमानदारी", "ethics", "integrity"]
+  },
+  {
+    "id": "katha-1-3-14",
+    "title": "जागो और श्रेष्ठ मार्ग चुनो",
+    "category": "Upanishads",
+    "source": "कठ उपनिषद् 1.3.14",
+    "verse": "उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत ।",
+    "summary_hi": "उठो, जागो और ज्ञानी मार्गदर्शकों से सत्य को समझो।",
+    "summary_en": "Arise, awaken and learn from those who have realized wisdom.",
+    "themes": ["जागरण", "गुरु", "purpose", "motivation"]
+  },
+  {
+    "id": "mandukya-om",
+    "title": "ॐ और चेतना की अवस्थाएँ",
+    "category": "Upanishads",
+    "source": "माण्डूक्य उपनिषद्",
+    "verse": "ॐ इत्येतदक्षरमिदं सर्वम् ।",
+    "summary_hi": "ॐ को समस्त अनुभव और चेतना के प्रतीक के रूप में समझाया गया है।",
+    "summary_en": "Om is presented as a symbol encompassing the whole field of experience and consciousness.",
+    "themes": ["ॐ", "ध्यान", "consciousness", "meditation"]
+  },
+  {
+    "id": "taittiriya-satyam",
+    "title": "सत्य बोलो, धर्म का आचरण करो",
+    "category": "Upanishads",
+    "source": "तैत्तिरीय उपनिषद् 1.11",
+    "verse": "सत्यं वद । धर्मं चर ।",
+    "summary_hi": "जीवन में सत्य बोलना और उचित आचरण करना आध्यात्मिक साधना है।",
+    "summary_en": "Speaking truth and living ethically are themselves spiritual practice.",
+    "themes": ["धर्म", "सत्य", "conduct", "ethics"]
+  },
+  {
+    "id": "shiva-purana-devotion",
+    "title": "शिव-भक्ति और आंतरिक रूपांतरण",
+    "category": "Puranas",
+    "source": "शिव पुराण — विषय-सार",
+    "verse": "",
+    "summary_hi": "शिव पुराण भक्ति, वैराग्य, पूजा, शिव-तत्त्व और अहंकार के रूपांतरण पर अनेक आख्यान प्रस्तुत करता है।",
+    "summary_en": "The Shiva Purana explores devotion, renunciation, worship, Shiva-tattva and transformation of ego through sacred narratives.",
+    "themes": ["शिव", "भक्ति", "वैराग्य", "devotion"]
+  },
+  {
+    "id": "bhagavata-bhakti",
+    "title": "भक्ति का हृदय",
+    "category": "Puranas",
+    "source": "श्रीमद्भागवत महापुराण — विषय-सार",
+    "verse": "",
+    "summary_hi": "भागवत पुराण प्रेमपूर्ण भक्ति, करुणा, धर्म और भगवान के साथ जीवंत संबंध पर केंद्रित है।",
+    "summary_en": "The Bhagavata Purana centers on loving devotion, compassion, dharma and a living relationship with the divine.",
+    "themes": ["कृष्ण", "भक्ति", "प्रेम", "compassion"]
+  },
+  {
+    "id": "markandeya-devi",
+    "title": "देवी की शक्ति",
+    "category": "Puranas",
+    "source": "मार्कण्डेय पुराण / देवीमहात्म्य — विषय-सार",
+    "verse": "",
+    "summary_hi": "देवीमहात्म्य दिव्य शक्ति को साहस, संरक्षण, बुद्धि और अधर्म-विनाश के रूप में चित्रित करता है।",
+    "summary_en": "The Devi Mahatmya portrays divine power as courage, protection, wisdom and the overcoming of destructive forces.",
+    "themes": ["देवी", "शक्ति", "साहस", "protection"]
+  },
+  {
+    "id": "vishnu-purana-dharma",
+    "title": "सृष्टि, पालन और धर्म",
+    "category": "Puranas",
+    "source": "विष्णु पुराण — विषय-सार",
+    "verse": "",
+    "summary_hi": "विष्णु पुराण सृष्टि-चक्र, अवतार, वंशावली और धर्मपूर्ण जीवन की व्यापक चर्चा करता है।",
+    "summary_en": "The Vishnu Purana discusses cosmic cycles, avatars, genealogies and dharmic life.",
+    "themes": ["विष्णु", "अवतार", "धर्म", "cosmos"]
+  },
+  {
+    "id": "yoga-sutra-1-2",
+    "title": "योग: चित्तवृत्ति का निरोध",
+    "category": "Darshana",
+    "source": "पतञ्जलि योगसूत्र 1.2",
+    "verse": "योगश्चित्तवृत्तिनिरोधः ।",
+    "summary_hi": "योग मन की अस्थिर वृत्तियों को समझकर उन्हें शांत और संयमित करने की प्रक्रिया है।",
+    "summary_en": "Yoga is the settling and mastery of the mind's changing patterns.",
+    "themes": ["योग", "मन", "meditation", "focus"]
+  },
+  {
+    "id": "yoga-sutra-1-12",
+    "title": "अभ्यास और वैराग्य",
+    "category": "Darshana",
+    "source": "पतञ्जलि योगसूत्र 1.12",
+    "verse": "अभ्यासवैराग्याभ्यां तन्निरोधः ।",
+    "summary_hi": "निरंतर अभ्यास और अनावश्यक आसक्ति छोड़ने से मन स्थिर होता है।",
+    "summary_en": "Steadiness grows through sustained practice and non-attachment.",
+    "themes": ["अभ्यास", "वैराग्य", "habit", "discipline"]
+  },
+  {
+    "id": "ramayana-dharma",
+    "title": "मर्यादा और उत्तरदायित्व",
+    "category": "Itihasa",
+    "source": "वाल्मीकि रामायण — विषय-सार",
+    "verse": "",
+    "summary_hi": "रामायण संबंधों, कर्तव्य, त्याग, नेतृत्व और कठिन परिस्थितियों में मर्यादा की खोज है।",
+    "summary_en": "The Ramayana explores relationships, duty, sacrifice, leadership and integrity under pressure.",
+    "themes": ["राम", "मर्यादा", "leadership", "family"]
+  },
+  {
+    "id": "mahabharata-dharma",
+    "title": "जटिल परिस्थितियों में धर्म",
+    "category": "Itihasa",
+    "source": "महाभारत — विषय-सार",
+    "verse": "",
+    "summary_hi": "महाभारत दिखाता है कि धर्म हमेशा सरल नियम नहीं, बल्कि विवेक, संदर्भ और परिणामों की गंभीर परीक्षा भी है।",
+    "summary_en": "The Mahabharata shows that dharma often requires contextual judgment, not simplistic rules.",
+    "themes": ["धर्म", "निर्णय", "conflict", "ethics"]
+  },
+  {
+    "id": "hanuman-courage",
+    "title": "भक्ति से साहस",
+    "category": "Itihasa",
+    "source": "रामायण परम्परा — हनुमान प्रसंग",
+    "verse": "",
+    "summary_hi": "हनुमान की कथा याद दिलाती है कि निस्वार्थ सेवा, स्मृति और श्रद्धा से सुप्त शक्ति जाग सकती है।",
+    "summary_en": "Hanuman's story reminds us that selfless service, remembrance and faith can awaken dormant strength.",
+    "themes": ["हनुमान", "साहस", "सेवा", "confidence"]
+  },
+  {
+    "id": "bhakti-narada",
+    "title": "भक्ति: परम प्रेम",
+    "category": "Bhakti",
+    "source": "नारद भक्ति सूत्र — विषय-सार",
+    "verse": "सा त्वस्मिन् परमप्रेमरूपा ।",
+    "summary_hi": "भक्ति को परम प्रेम के रूप में बताया गया है—स्वार्थ से मुक्त, हृदय को विस्तृत करने वाला प्रेम।",
+    "summary_en": "Bhakti is described as supreme love—love that expands the heart beyond self-interest.",
+    "themes": ["भक्ति", "प्रेम", "relationship", "love"]
+  },
+  {
+    "id": "vivekachudamani-discrimination",
+    "title": "नित्य-अनित्य का विवेक",
+    "category": "Vedanta",
+    "source": "विवेकचूडामणि — विषय-सार",
+    "verse": "",
+    "summary_hi": "विवेक का अर्थ है बदलने वाली वस्तुओं और स्थायी सत्य में अंतर पहचानना।",
+    "summary_en": "Discernment means distinguishing transient experiences from enduring truth.",
+    "themes": ["विवेक", "वेदान्त", "clarity", "wisdom"]
+  },
+  {
+    "id": "ashtavakra-awareness",
+    "title": "साक्षीभाव",
+    "category": "Vedanta",
+    "source": "अष्टावक्र गीता — विषय-सार",
+    "verse": "",
+    "summary_hi": "अष्टावक्र परम्परा अनुभवों से चिपकने के बजाय स्वयं को जागरूक साक्षी के रूप में पहचानने पर बल देती है।",
+    "summary_en": "The Ashtavakra tradition emphasizes recognizing awareness as the witness rather than clinging to experiences.",
+    "themes": ["साक्षी", "चेतना", "nonduality", "awareness"]
+  },
+  {
+    "id": "shiva-sutra-consciousness",
+    "title": "चैतन्य ही आत्मा है",
+    "category": "Shaiva",
+    "source": "शिवसूत्र 1.1",
+    "verse": "चैतन्यमात्मा ।",
+    "summary_hi": "कश्मीर शैव परम्परा चेतना को आत्मा का मूल स्वरूप बताती है।",
+    "summary_en": "The Kashmir Shaiva tradition identifies consciousness as the essential nature of the self.",
+    "themes": ["शिव", "चैतन्य", "Kashmir Shaivism", "awareness"]
+  },
+  {
+    "id": "mahamrityunjaya",
+    "title": "महामृत्युञ्जय प्रार्थना",
+    "category": "Mantra",
+    "source": "ऋग्वेद 7.59.12 / यजुर्वेदीय परम्परा",
+    "verse": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥",
+    "summary_hi": "यह मंत्र उपचार, निर्भयता, बंधनों से मुक्ति और जीवन की पूर्णता की प्रार्थना के रूप में जपा जाता है।",
+    "summary_en": "This mantra is recited as a prayer for healing, freedom from fear and release from limiting bonds.",
+    "themes": ["मंत्र", "स्वास्थ्य", "भय", "healing"]
+  }
+]

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b16">
+  <meta name="description" content="Animated cosmic dashboard with orbiting planets and live visual activity.">
+  <meta property="og:title" content="Cosmic Dashboard">
+  <meta property="og:description" content="Animated cosmic dashboard with orbiting planets and live visual activity.">
+  <meta property="og:image" content="assets/images/shiva-dashboard.webp">
+  <meta property="og:type" content="website">
+  <title>Cosmic Dashboard · Brahmand</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script><script src="assets/js/dashboard.js" defer></script>
+</head>
+<body data-page="cosmic">
+
+<a class="skip-link" href="#mainContent">मुख्य सामग्री पर जाएँ</a>
+<canvas id="starfield" aria-hidden="true"></canvas>
+<div class="ambient-orb one" aria-hidden="true"></div><div class="ambient-orb two" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Brahmand home">
+      <span class="brand-om">ॐ</span>
+      <span class="brand-copy"><strong>Brahmand</strong><small>The Eternal Cosmic Intelligence</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation"><a href="index.html" data-nav="home">Home</a><a href="ask-bhagwan.html" data-nav="ask">Ask Bhagwan</a><a href="bhagavad-gita.html" data-nav="gita">Bhagavad Gita</a><a href="vedas.html" data-nav="vedas">Vedas</a><a href="puranas.html" data-nav="puranas">Puranas</a><a href="upanishads.html" data-nav="upanishads">Upanishads</a><a href="scriptures.html" data-nav="scriptures">Scriptures</a><a href="cosmic-dashboard.html" data-nav="cosmic">Cosmic Dashboard</a></nav>
+    <div class="header-actions">
+      <div class="language-control"><label class="sr-only" for="globalLanguage">Language</label><select id="globalLanguage">
+<option value="hi-IN">हिन्दी</option>
+<option value="en-US">English</option>
+<option value="sa-IN">संस्कृतम्</option>
+<option value="ta-IN">தமிழ்</option>
+<option value="te-IN">తెలుగు</option>
+<option value="bn-IN">বাংলা</option>
+<option value="gu-IN">ગુજરાતી</option>
+<option value="mr-IN">मराठी</option>
+<option value="pa-IN">ਪੰਜਾਬੀ</option>
+<option value="ur-PK">اردو</option>
+<option value="es-ES">Español</option>
+<option value="fr-FR">Français</option>
+<option value="de-DE">Deutsch</option>
+<option value="pt-BR">Português</option>
+<option value="ar-SA">العربية</option>
+<option value="zh-CN">中文</option>
+<option value="ja-JP">日本語</option>
+</select></div>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="app-shell">
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-heading">Cosmic Navigation</div>
+  <nav class="side-nav" aria-label="Section navigation"><a class="" href="index.html" data-nav="home"><span class="side-icon">⌂</span><span class="side-copy"><strong>Home</strong><small>ब्रह्माण्ड में लौटें</small></span></a><a class="" href="ask-bhagwan.html" data-nav="ask"><span class="side-icon">✦</span><span class="side-copy"><strong>Ask Bhagwan</strong><small>Voice और text संवाद</small></span></a><a class="" href="bhagavad-gita.html" data-nav="gita"><span class="side-icon">▤</span><span class="side-copy"><strong>Bhagavad Gita</strong><small>18 अध्यायों का ज्ञान</small></span></a><a class="" href="vedas.html" data-nav="vedas"><span class="side-icon">ॐ</span><span class="side-copy"><strong>Vedas</strong><small>वैदिक ज्ञान परम्परा</small></span></a><a class="" href="puranas.html" data-nav="puranas"><span class="side-icon">◈</span><span class="side-copy"><strong>Puranas</strong><small>18 महापुराण</small></span></a><a class="" href="upanishads.html" data-nav="upanishads"><span class="side-icon">◌</span><span class="side-copy"><strong>Upanishads</strong><small>आत्मा और ब्रह्म की खोज</small></span></a><a class="" href="scriptures.html" data-nav="scriptures"><span class="side-icon">⌘</span><span class="side-copy"><strong>Scripture Library</strong><small>शास्त्र खोजें</small></span></a><a class="" href="daily-wisdom.html" data-nav="wisdom"><span class="side-icon">✧</span><span class="side-copy"><strong>Daily Wisdom</strong><small>आज का चिंतन</small></span></a><a class="" href="meditation.html" data-nav="meditation"><span class="side-icon">◉</span><span class="side-copy"><strong>Meditation</strong><small>श्वास और जागरूकता</small></span></a><a class="active" href="cosmic-dashboard.html" data-nav="cosmic"><span class="side-icon">✺</span><span class="side-copy"><strong>Cosmic Dashboard</strong><small>जीवंत visual simulation</small></span></a><a class="" href="community.html" data-nav="community"><span class="side-icon">♧</span><span class="side-copy"><strong>Community</strong><small>साधकों का संग</small></span></a><a class="" href="about.html" data-nav="about"><span class="side-icon">◇</span><span class="side-copy"><strong>About</strong><small>उद्देश्य और सिद्धांत</small></span></a></nav>
+  <div class="sidebar-status"><small>Now in Brahmand</small><strong data-seekers>12,847</strong><span class="online">Seekers online</span></div>
+</aside>
+<main class="page-main" id="mainContent"><section class="page-hero reveal"><div class="page-hero-content"><span class="eyebrow">Animated Visual Simulation</span><h1>Cosmic Dashboard</h1><p>बनते तारों, घूमते ग्रहों और बढ़ती चेतना का एक कलात्मक simulation। नीचे के ब्रह्माण्डीय आँकड़े वास्तविक astronomical telemetry नहीं हैं।</p></div></section>
+<div class="page-container"><section class="stat-grid"><div class="card stat-card"><span class="stat-label">Seekers online</span><strong class="stat-value" data-seekers>12,847</strong><span class="stat-meta">इस browser session का simulated count</span></div><div class="card stat-card"><span class="stat-label">Questions reflected</span><strong class="stat-value" data-live-number="108240" data-min-step="2" data-max-step="9">108,240</strong><span class="stat-meta">Live UI animation</span></div><div class="card stat-card"><span class="stat-label">Meditation minutes</span><strong class="stat-value" data-live-number="540812" data-min-step="6" data-max-step="22">540,812</strong><span class="stat-meta">Community simulation</span></div><div class="card stat-card"><span class="stat-label">Languages</span><strong class="stat-value" data-counter="17">0</strong><span class="stat-meta">UI and voice selection</span></div></section>
+<section class="section grid-2"><div class="glass-card cosmic-map"><div class="orbit-system"><div class="cosmic-sun">ॐ</div><div class="orbit one"><span class="orbit-planet"></span></div><div class="orbit two"><span class="orbit-planet"></span></div><div class="orbit three"><span class="orbit-planet"></span></div></div><span class="badge violet-badge" style="position:absolute;top:16px;left:16px">∞ Universes Active</span><div id="cosmicClock" style="position:absolute;right:16px;bottom:16px;color:#9cabc0;font-size:10px"></div></div><aside class="card"><div class="section-header"><div><h2 class="section-title" style="font-size:27px">Live Activity</h2><p class="section-subtitle">नई simulated events हर कुछ सेकंड में दिखाई देंगी।</p></div></div><div class="activity-feed" id="activityFeed"><div class="activity-item"><div class="activity-icon">✨</div><div class="activity-copy"><strong>नई जिज्ञासा</strong><small>कर्मयोग पर प्रश्न पूछा गया</small></div><span class="activity-time">अभी</span></div><div class="activity-item"><div class="activity-icon">🪷</div><div class="activity-copy"><strong>ध्यान पूर्ण</strong><small>10 मिनट का सत्र पूरा हुआ</small></div><span class="activity-time">2m</span></div><div class="activity-item"><div class="activity-icon">📖</div><div class="activity-copy"><strong>श्लोक पढ़ा गया</strong><small>ईशावास्य उपनिषद् 1</small></div><span class="activity-time">4m</span></div></div></aside></section>
+<section class="section"><div class="grid-3"><article class="card"><span class="badge gold-badge">🔥</span><h3 style="margin-top:12px">Galaxies Forming</h3><strong class="stat-value" data-live-number="1247" data-min-step="0" data-max-step="2">1,247</strong><p class="muted">Creative visual metaphor</p></article><article class="card"><span class="badge cyan-badge">☀</span><h3 style="margin-top:12px">Stars Born</h3><strong class="stat-value" data-live-number="12456" data-min-step="1" data-max-step="6">12,456</strong><p class="muted">Animated interface metric</p></article><article class="card"><span class="badge violet-badge">🌍</span><h3 style="margin-top:12px">Planets Creating</h3><strong class="stat-value" data-live-number="89" data-min-step="0" data-max-step="1">89</strong><p class="muted">Not a scientific measurement</p></article></div></section>
+<section class="section"><div class="notice"><strong>Transparency:</strong> यह dashboard spiritual imagination और visual immersion के लिए बनाया गया है। “Galaxies forming”, “stars born” और इसी प्रकार के counts वास्तविक NASA/observatory data नहीं हैं।</div></section></div></main>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>ॐ तत् सत् · © <span data-current-year></span> Brahmand · AI-assisted spiritual study experience</div>
+    <nav class="footer-links" aria-label="Footer"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="api/health" target="_blank" rel="noopener">System Health</a></nav>
+  </div>
+</footer>
+</body>
+</html>

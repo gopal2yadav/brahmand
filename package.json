@@ -1,0 +1,14 @@
+{
+  "name": "brahmand-divine-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A 15-page Shiva-inspired multilingual AI spiritual study website, ready for Vercel.",
+  "scripts": {
+    "dev": "npx vercel dev",
+    "serve": "npx serve . -l 3000",
+    "check": "node --check api/chat.js && node --check api/health.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

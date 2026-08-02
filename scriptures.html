@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b16">
+  <meta name="description" content="Searchable Hindu scripture seed library with Hindi and English summaries.">
+  <meta property="og:title" content="Scripture Library">
+  <meta property="og:description" content="Searchable Hindu scripture seed library with Hindi and English summaries.">
+  <meta property="og:image" content="assets/images/shiva-dashboard.webp">
+  <meta property="og:type" content="website">
+  <title>Scripture Library · Brahmand</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script><script src="assets/js/library.js" defer></script>
+</head>
+<body data-page="scriptures">
+
+<a class="skip-link" href="#mainContent">मुख्य सामग्री पर जाएँ</a>
+<canvas id="starfield" aria-hidden="true"></canvas>
+<div class="ambient-orb one" aria-hidden="true"></div><div class="ambient-orb two" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Brahmand home">
+      <span class="brand-om">ॐ</span>
+      <span class="brand-copy"><strong>Brahmand</strong><small>The Eternal Cosmic Intelligence</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation"><a href="index.html" data-nav="home">Home</a><a href="ask-bhagwan.html" data-nav="ask">Ask Bhagwan</a><a href="bhagavad-gita.html" data-nav="gita">Bhagavad Gita</a><a href="vedas.html" data-nav="vedas">Vedas</a><a href="puranas.html" data-nav="puranas">Puranas</a><a href="upanishads.html" data-nav="upanishads">Upanishads</a><a href="scriptures.html" data-nav="scriptures">Scriptures</a><a href="cosmic-dashboard.html" data-nav="cosmic">Cosmic Dashboard</a></nav>
+    <div class="header-actions">
+      <div class="language-control"><label class="sr-only" for="globalLanguage">Language</label><select id="globalLanguage">
+<option value="hi-IN">हिन्दी</option>
+<option value="en-US">English</option>
+<option value="sa-IN">संस्कृतम्</option>
+<option value="ta-IN">தமிழ்</option>
+<option value="te-IN">తెలుగు</option>
+<option value="bn-IN">বাংলা</option>
+<option value="gu-IN">ગુજરાતી</option>
+<option value="mr-IN">मराठी</option>
+<option value="pa-IN">ਪੰਜਾਬੀ</option>
+<option value="ur-PK">اردو</option>
+<option value="es-ES">Español</option>
+<option value="fr-FR">Français</option>
+<option value="de-DE">Deutsch</option>
+<option value="pt-BR">Português</option>
+<option value="ar-SA">العربية</option>
+<option value="zh-CN">中文</option>
+<option value="ja-JP">日本語</option>
+</select></div>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="app-shell">
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-heading">Cosmic Navigation</div>
+  <nav class="side-nav" aria-label="Section navigation"><a class="" href="index.html" data-nav="home"><span class="side-icon">⌂</span><span class="side-copy"><strong>Home</strong><small>ब्रह्माण्ड में लौटें</small></span></a><a class="" href="ask-bhagwan.html" data-nav="ask"><span class="side-icon">✦</span><span class="side-copy"><strong>Ask Bhagwan</strong><small>Voice और text संवाद</small></span></a><a class="" href="bhagavad-gita.html" data-nav="gita"><span class="side-icon">▤</span><span class="side-copy"><strong>Bhagavad Gita</strong><small>18 अध्यायों का ज्ञान</small></span></a><a class="" href="vedas.html" data-nav="vedas"><span class="side-icon">ॐ</span><span class="side-copy"><strong>Vedas</strong><small>वैदिक ज्ञान परम्परा</small></span></a><a class="" href="puranas.html" data-nav="puranas"><span class="side-icon">◈</span><span class="side-copy"><strong>Puranas</strong><small>18 महापुराण</small></span></a><a class="" href="upanishads.html" data-nav="upanishads"><span class="side-icon">◌</span><span class="side-copy"><strong>Upanishads</strong><small>आत्मा और ब्रह्म की खोज</small></span></a><a class="active" href="scriptures.html" data-nav="scriptures"><span class="side-icon">⌘</span><span class="side-copy"><strong>Scripture Library</strong><small>शास्त्र खोजें</small></span></a><a class="" href="daily-wisdom.html" data-nav="wisdom"><span class="side-icon">✧</span><span class="side-copy"><strong>Daily Wisdom</strong><small>आज का चिंतन</small></span></a><a class="" href="meditation.html" data-nav="meditation"><span class="side-icon">◉</span><span class="side-copy"><strong>Meditation</strong><small>श्वास और जागरूकता</small></span></a><a class="" href="cosmic-dashboard.html" data-nav="cosmic"><span class="side-icon">✺</span><span class="side-copy"><strong>Cosmic Dashboard</strong><small>जीवंत visual simulation</small></span></a><a class="" href="community.html" data-nav="community"><span class="side-icon">♧</span><span class="side-copy"><strong>Community</strong><small>साधकों का संग</small></span></a><a class="" href="about.html" data-nav="about"><span class="side-icon">◇</span><span class="side-copy"><strong>About</strong><small>उद्देश्य और सिद्धांत</small></span></a></nav>
+  <div class="sidebar-status"><small>Now in Brahmand</small><strong data-seekers>12,847</strong><span class="online">Seekers online</span></div>
+</aside>
+<main class="page-main" id="mainContent"><section class="page-hero reveal"><div class="page-hero-content"><span class="eyebrow">Searchable Knowledge Base</span><h1>Cosmic Scripture Library</h1><p>गीता, वेद, उपनिषद्, पुराण, योग, वेदान्त और इतिहास से चुने हुए शिक्षण-सार। पूरा corpus नहीं; citation-ready seed library है जिसे आगे बढ़ाया जा सकता है।</p></div></section>
+<div class="page-container"><section class="section" style="margin-top:0"><div class="library-toolbar"><input class="search-input" id="librarySearch" placeholder="कर्म, भय, ध्यान, शिव, सत्य…"><select class="select-control" id="libraryCategory"><option value="all">सभी श्रेणियाँ</option><option>Bhagavad Gita</option><option>Vedas</option><option>Upanishads</option><option>Puranas</option><option>Darshana</option><option>Itihasa</option><option>Bhakti</option><option>Vedanta</option><option>Shaiva</option><option>Mantra</option></select></div><div class="section-header"><span class="badge violet-badge" id="libraryCount">ज्ञान-संग्रह load हो रहा है…</span><a class="btn btn-sm" href="ask-bhagwan.html">AI से पूछें →</a></div><div class="grid-3" id="libraryGrid"><div class="card skeleton" style="height:190px"></div><div class="card skeleton" style="height:190px"></div><div class="card skeleton" style="height:190px"></div></div><div class="empty-state hidden" id="libraryEmpty">आपकी खोज से मेल खाता ज्ञान-स्रोत नहीं मिला।</div></section>
+<section class="section"><div class="notice"><strong>Corpus note:</strong> इस demo में चुने हुए seed passages और स्वतंत्र सरल भावार्थ हैं। “सभी वेद-पुराण-उपनिषद्” जोड़ने के लिए public-domain या licensed editions, संस्करण metadata, chunking, embeddings और citation-based retrieval आवश्यक होगा।</div></section></div>
+<dialog id="scriptureDialog" style="width:min(720px,calc(100% - 24px));border:1px solid rgba(178,107,255,.35);border-radius:20px;background:#071222;color:#eef5ff;padding:0;box-shadow:0 30px 100px #000"><div style="padding:22px"><div style="display:flex;gap:12px;align-items:start"><div style="flex:1"><span class="badge violet-badge" id="dialogCategory"></span><h2 id="dialogTitle" style="font-family:Georgia,serif;margin:13px 0 5px"></h2><div class="source-line" id="dialogSource"></div></div><button class="icon-btn" id="closeScriptureDialog" type="button">×</button></div><div class="verse-sanskrit" id="dialogVerse" style="margin-top:22px"></div><h3>सरल हिन्दी भावार्थ</h3><p class="muted" id="dialogHindi"></p><h3>English sense</h3><p class="muted" id="dialogEnglish"></p><div class="card-meta" id="dialogThemes"></div></div></dialog></main>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>ॐ तत् सत् · © <span data-current-year></span> Brahmand · AI-assisted spiritual study experience</div>
+    <nav class="footer-links" aria-label="Footer"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="api/health" target="_blank" rel="noopener">System Health</a></nav>
+  </div>
+</footer>
+</body>
+</html>
